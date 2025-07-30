@@ -1,14 +1,17 @@
-
 import pandas as pd
 import numpy as np
 import sqlite3
+import os
 
-# Step 2: Read CSV files from data folder
+# Step 1: Set database file path
+db_path = "ipl_analysis.db"
+
+# Step 2: Read CSV files from 'data' folder
 matches_df = pd.read_csv("data/matches.csv")
 deliveries_df = pd.read_csv("data/deliveries.csv")
 
-# Step 3: Create SQLite DB in memory
-conn = sqlite3.connect(':memory:')
+# Step 3: Create SQLite DB as a file (not in memory)
+conn = sqlite3.connect(db_path)
 cursor = conn.cursor()
 
 # Step 4: Store data into SQL tables
@@ -58,3 +61,4 @@ season_perf.to_csv("season_report.csv", index=False)
 
 # Step 13: Completion Message
 print("\nReports saved successfully: 'team_report.csv' and 'season_report.csv'")
+print(f"Database created at: {os.path.abspath(db_path)}")

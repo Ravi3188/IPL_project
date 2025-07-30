@@ -1,0 +1,24 @@
+2025-07-30 09:08:53,504 - INFO - CSV files loaded successfully.
+2025-07-30 09:08:53,512 - INFO - Connected to SQLite database.
+2025-07-30 09:08:54,314 - INFO - Data written to database successfully.
+2025-07-30 09:08:54,336 - INFO - Team report generated.
+2025-07-30 09:08:54,351 - INFO - Season report generated.
+2025-07-30 09:08:54,444 - INFO - Top teams and batsmen reports saved.
+2025-07-30 09:08:54,584 - INFO - Additional SQL reports saved.
+2025-07-30 09:08:55,144 - INFO - Visualizations generated successfully.
+2025-07-30 09:10:39,149 - INFO - CSV files loaded successfully.
+2025-07-30 09:10:39,150 - INFO - Connected to SQLite database.
+2025-07-30 09:10:39,666 - INFO - Data written to database successfully.
+2025-07-30 09:10:39,673 - INFO - Team report generated.
+2025-07-30 09:10:39,682 - INFO - Season report generated.
+2025-07-30 09:10:39,760 - INFO - Top teams and batsmen reports saved.
+2025-07-30 09:10:39,897 - INFO - Additional SQL reports saved.
+2025-07-30 09:10:40,262 - INFO - Visualizations generated successfully.
+2025-07-30 16:02:03,237 - INFO - CSV files loaded successfully.
+2025-07-30 16:02:03,245 - INFO - Connected to SQLite database.
+2025-07-30 16:02:04,066 - INFO - Data written to database successfully.
+2025-07-30 16:02:04,082 - INFO - Team report generated.
+2025-07-30 16:02:04,095 - INFO - Season report generated.
+2025-07-30 16:02:04,196 - INFO - Top teams and batsmen reports saved.
+2025-07-30 16:02:04,340 - INFO - Additional SQL reports saved.
+2025-07-30 16:02:04,832 - INFO - Visualizations generated successfully.
